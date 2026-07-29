@@ -13,6 +13,7 @@ Skills are self-contained instructions, domain workflows, and procedural knowled
 | Skill Name | Description | SKILL Spec |
 | :--- | :--- | :--- |
 | [**human-writing**](./human-writing) | Draft and revise prose so it sounds natural, specific, purposeful, and appropriate to its author and audience. Eliminates formulaic AI tropes, fluff, and robotic phrasing while preserving factual accuracy. | [`human-writing/SKILL.md`](./human-writing/SKILL.md) |
+| [**trim-prompt**](./trim-prompt) | Compresses prompts, terminal logs, source code, and documentation to significantly cut token usage for coding LLMs while preserving key execution flow and context. | [`trim-prompt/SKILL.md`](./trim-prompt/SKILL.md) |
 
 ---
 
@@ -21,6 +22,8 @@ Skills are self-contained instructions, domain workflows, and procedural knowled
 ```
 skills/
 ├── human-writing/
+│   └── SKILL.md
+├── trim-prompt/
 │   └── SKILL.md
 ├── CONTRIBUTING.md
 ├── LICENSE
