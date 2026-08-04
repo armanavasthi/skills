@@ -33,6 +33,15 @@ Preserve distinctive wording that works. Do not polish every sentence into the s
 
 Never invent memories, emotions, opinions, biographical details, or firsthand experience to make writing appear human. Do not add deliberate errors, slang, fragments, or randomness unless the voice and context call for them.
 
+## Break statistical predictability
+
+AI models default to high probability and balanced symmetry. Human writing is naturally asymmetrical and occasionally unpredictable. To ensure natural prose:
+
+- **Force structural asymmetry:** Do not balance paragraphs perfectly. If one paragraph is five sentences long, the next should be one or two sentences. 
+- **Embrace burstiness:** Drastically vary the pacing. Follow a complex, 30-word explanatory sentence with a blunt, three-word statement. 
+- **Shatter the rule of three:** Avoid presenting examples, arguments, or adjectives in groups of three. Use two, or use five. 
+- **Avoid standard collocations:** Do not automatically pair highly predictable adjectives with nouns (e.g., instead of "vast majority," "stark contrast," or "careful consideration," use distinct, context-specific descriptors).
+
 ## Use this workflow
 
 1. **Find the point.** Identify what the reader needs to know, decide, feel, or do.
@@ -86,12 +95,15 @@ Treat the following as patterns to inspect, not forbidden constructions. One tra
 | Repetitive conclusion | Each section restates its point, or the piece ends with a generic “In conclusion” summary. | End after the final useful point. Add a conclusion only when it synthesizes or advances the argument. |
 | Uniform rhythm | Sentences and paragraphs have similar lengths and balanced structures throughout. | Let structure follow meaning. Use short sentences for direct points and longer ones for necessary qualification. |
 | Excessive formatting | Every section has a heading, every bullet has a bold label, or simple information is placed in a table. | Use headings for navigation, lists for parallel items, and tables for genuine comparisons. |
+| Symmetrical architecture | The draft features an introduction, three equally sized body paragraphs, and a neat conclusion. | Delete the summary conclusion entirely. Merge or split body paragraphs so they reflect the weight of the information, not a visual template. |
+| Predictable collocations | Nouns are consistently preceded by their most statistically common adjective pairings (e.g., "daunting task," "unprecedented scale"). | Remove the adjective entirely or replace it with a highly specific, concrete detail. |
+| The "Inward/Outward" pivot | A paragraph begins by looking at a micro detail and always concludes by zooming out to the "broader implications." | Let the detail stand on its own. Do not force every small fact to carry industry-wide significance. |
 
 ## Monitor phrase density
 
 Inspect clusters of words such as:
 
-`align`, `bolster`, `crucial`, `delve`, `dynamic`, `enduring`, `enhance`, `foster`, `garner`, `highlight`, `interplay`, `intricate`, `key`, `landscape`, `meticulous`, `pivotal`, `profound`, `robust`, `showcase`, `tapestry`, `testament`, `underscore`, `valuable`, and `vibrant`.
+`acts as`, `additionally`, `crucial`, `showcase`, `align`, `at the forefront`, `bolster`, `comprehensive`, `consequently`, `crucial`, `delve`, `dynamic`, `enduring`, `enhance`, `foster`, `garner`, `highlight`, `interplay`, `intricate`, `it is important to note`, `key`, `landscape`, `meticulous`, `notably`, `pivotal`, `presents a`, `profound`, `robust`, `seamless`, `serves as`, `showcase`, `stands out`, `tapestry`, `testament`, `underscore`, `valuable`, and `vibrant`.
 
 Keep a word when it is accurate and natural. Revise when several appear close together, recur throughout the draft, or replace concrete information.
 
@@ -176,7 +188,7 @@ Use bold sparingly. Avoid repeated `**Label:** explanation` bullets unless the l
 
 Use lists for parallel items or procedures. Use prose when the ideas need connection. Use tables only when readers need to compare repeated fields.
 
-Avoid em dashes by default. Rewrite with a comma, parentheses, colon, semicolon, or separate sentence whenever any of those choices preserves the meaning and reads naturally. Use an em dash only when no reasonable alternative preserves the intended clarity or emphasis, or when retaining quoted or user-supplied text exactly. Follow an explicit destination style only when it requires em dashes.
+Never use em dashes. Rewrite with a comma, parentheses, colon, semicolon, or separate sentence. Follow an explicit destination style only when it explicitly requires them for a specific technical reason.
 
 Use parentheses, colons, curly quotes, emoji, and fragments according to meaning and house style. Do not use them as automatic decoration.
 
@@ -243,7 +255,7 @@ Check that:
 - Elevated vocabulary does not cluster.
 - Simple verbs have not been replaced unnecessarily.
 - Contrasts, triads, transitions, and conclusions are not mechanical.
-- Em dashes have been replaced unless no reasonable alternative works or exact source text requires them.
+- Em dashes have been completely removed and replaced.
 - Sentence and paragraph rhythm is not unnaturally uniform.
 - Formatting is no more elaborate than needed.
 - No chatbot commentary, placeholder, or internal markup remains.
