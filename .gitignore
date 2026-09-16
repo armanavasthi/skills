@@ -17,3 +17,6 @@ Thumbs.db
 *.log
 tmp/
 scratch/
+
+# Skill folders to ignore
+sentinel-blog-writing/

@@ -33,19 +33,18 @@ Preserve distinctive wording that works. Do not polish every sentence into the s
 
 Never invent memories, emotions, opinions, biographical details, or firsthand experience to make writing appear human. Do not add deliberate errors, slang, fragments, or randomness unless the voice and context call for them.
 
-## Break statistical predictability
+## Let the content determine the structure
 
-AI models default to high probability and balanced symmetry. Human writing is naturally asymmetrical and occasionally unpredictable. To ensure natural prose:
+Give each point the space and explanation it needs. Let sentence length follow the thought and paragraph length follow the work the paragraph does. Do not force asymmetry, alternate long and short sentences by formula, or insert fragments and errors to manufacture irregularity.
 
-- **Force structural asymmetry:** Do not balance paragraphs perfectly. If one paragraph is five sentences long, the next should be one or two sentences. 
-- **Embrace burstiness:** Drastically vary the pacing. Follow a complex, 30-word explanatory sentence with a blunt, three-word statement. 
-- **Shatter the rule of three:** Avoid presenting examples, arguments, or adjectives in groups of three. Use two, or use five. 
-- **Avoid standard collocations:** Do not automatically pair highly predictable adjectives with nouns (e.g., instead of "vast majority," "stark contrast," or "careful consideration," use distinct, context-specific descriptors).
+Use the number of examples, arguments, or list items the subject requires, including three. Keep familiar expressions when they are accurate. Replace empty modifiers with useful detail, not unusual synonyms chosen for their rarity.
+
+Preserve a conversational technical voice, including a natural mixture of precise terms and everyday language. Correct grammar, formal vocabulary, and orderly structure are not defects.
 
 ## Use this workflow
 
 1. **Find the point.** Identify what the reader needs to know, decide, feel, or do.
-2. **Build a content spine.** List the essential facts, reasoning, examples, and actions before writing polished prose.
+2. **Build a content spine.** Identify the essential facts, reasoning, examples, and actions before polishing prose. For substantial pieces, check whether claims have enough explanation and evidence, and whether conclusions follow. These are questions to answer, not mandatory section headings.
 3. **Draft directly.** Lead with the answer or main point. Give each paragraph one useful job.
 4. **Make it specific.** Replace interchangeable statements with names, actions, dates, mechanisms, consequences, or examples.
 5. **Match the voice.** Adjust formality, rhythm, vocabulary, and explanation to the writer and audience.
@@ -53,6 +52,29 @@ AI models default to high probability and balanced symmetry. Human writing is na
 7. **Verify substance.** Check claims, quotations, citations, names, numbers, and preserved meaning.
 8. **Clean the delivery.** Remove unnecessary formatting, drafting notes, chatbot residue, and automatic offers to continue.
 9. **Stop when complete.** Do not lengthen the piece merely to make it seem comprehensive.
+
+Scale the workflow to the task. A short message does not need an outline or visible editorial analysis. A light edit should preserve the original structure unless changing it is necessary within the requested scope.
+
+## Check reasoning before polishing language
+
+Read the underlying argument in plain terms. If it has a missing mechanism, unsupported claim, or convenient conclusion, changing vocabulary will not repair it.
+
+Remove repeated interpretation: a paragraph need not state an idea, explain it, then announce its importance again. Retain definitions, intermediate reasoning, examples, and recaps that the reader needs. Technical explanations often require explicitness.
+
+Preserve relevant assumptions, trade-offs, failed attempts, and unresolved questions when the material supports them. Do not invent complexity or force a balanced pros-and-cons section when the evidence is one-sided. An approach need not solve every problem to be useful.
+
+State supported relationships precisely. Identify who did what, which component calls or depends on another, and how information moves. Avoid vague claims of association when the relationship is known; preserve uncertainty when it is not.
+
+Define the subject itself. An opening that says a term refers to a concept may still leave the concept unexplained. Explain its function, behavior, or distinguishing property when that is what the reader needs.
+
+## Adapt to the medium
+
+- **Technical blogs:** Establish the concrete problem, explain the approach, provide relevant examples or evidence, and discuss material limits. Choose the order and depth for this topic. Do not turn these considerations into an identical outline for every article.
+- **Social posts:** Develop a useful observation or argument at the requested length. Keep qualifications that change its meaning. Avoid unsupported dramatic hooks, invented personal lessons, and automatic engagement questions. Use a call to action when it serves the post's actual purpose.
+- **Study notes and explanations:** Define unfamiliar terms and make dependencies between ideas clear. Use a recap or worked example when it helps learning. If human-notes is also active, let it govern teaching depth, topic scope, anonymization, and note structure.
+- **Emails and practical messages:** Make the request, decision, or relevant information easy to find. Match warmth to the relationship without adding a story to a message that needs two sentences.
+
+These modes are optional adaptations within this skill, not dependencies on other skills.
 
 ## Prefer substance over performance
 
@@ -84,7 +106,7 @@ Treat the following as patterns to inspect, not forbidden constructions. One tra
 | Inflated significance | Ordinary facts are described as pivotal, enduring, transformative, symbolic, or part of a broader landscape. | State what happened and its observable consequence. Keep significance claims only when evidence supports them. |
 | Promotional tone | The prose relies on words such as vibrant, renowned, groundbreaking, breathtaking, rich, seamless, or world-class. | Replace praise with features, results, measurements, or attributed opinions. |
 | Superficial analysis | A fact is followed by an `-ing` phrase claiming it highlights, underscores, reflects, fosters, enhances, or symbolizes something. | Explain the relationship with evidence, state it directly, or remove it. |
-| Vague attribution | Claims are assigned to “experts,” “observers,” “critics,” “industry reports,” or “scholars.” | Name the source and represent its actual position. Do not turn one source into a consensus. |
+| Vague attribution or enlarged scope | Claims are assigned to vague authorities, or a limited result becomes a consensus or universal claim. | Name the source, preserve its conditions, and distinguish a result from a general recommendation. Do not imply further examples exist when the source supplies an exhaustive list. |
 | Canned notability | Importance is asserted through lists of media outlets, “independent coverage,” awards, or an “active social media presence.” | Summarize what the relevant source establishes. Do not use publication names as a substitute for substance. |
 | Generic challenge ending | A positive description leads to “Despite its success, it faces several challenges,” followed by speculative future prospects. | Discuss only specific, supported constraints and responses. Omit the section if it adds no information. |
 | Mechanical contrast | The text repeatedly uses “not only X but also Y,” “not just X,” or “not X but Y.” | Keep the contrast only when correcting a real misconception or making a necessary distinction. |
@@ -93,9 +115,9 @@ Treat the following as patterns to inspect, not forbidden constructions. One tra
 | Elegant variation | The same subject receives several synonyms merely to avoid repetition. | Repeat the established term when that is clearer and more precise. |
 | Decorative transitions | Paragraphs routinely begin with additionally, moreover, notably, importantly, or consequently. | Keep a transition only when it expresses a real logical relationship. |
 | Repetitive conclusion | Each section restates its point, or the piece ends with a generic “In conclusion” summary. | End after the final useful point. Add a conclusion only when it synthesizes or advances the argument. |
-| Uniform rhythm | Sentences and paragraphs have similar lengths and balanced structures throughout. | Let structure follow meaning. Use short sentences for direct points and longer ones for necessary qualification. |
+| Mechanical rhythm | Repeated sentence patterns obscure emphasis or make explanation tedious. | Adjust the passages that need it. Similar sentence lengths alone do not require revision. |
 | Excessive formatting | Every section has a heading, every bullet has a bold label, or simple information is placed in a table. | Use headings for navigation, lists for parallel items, and tables for genuine comparisons. |
-| Symmetrical architecture | The draft features an introduction, three equally sized body paragraphs, and a neat conclusion. | Delete the summary conclusion entirely. Merge or split body paragraphs so they reflect the weight of the information, not a visual template. |
+| Template-driven architecture | A fixed outline gives unequal ideas equal space or adds an unnecessary closing section. | Let sections reflect the weight of the information. Keep a useful synthesis, recommendation, or next action; remove a conclusion that merely repeats the piece. |
 | Predictable collocations | Nouns are consistently preceded by their most statistically common adjective pairings (e.g., "daunting task," "unprecedented scale"). | Remove the adjective entirely or replace it with a highly specific, concrete detail. |
 | The "Inward/Outward" pivot | A paragraph begins by looking at a micro detail and always concludes by zooming out to the "broader implications." | Let the detail stand on its own. Do not force every small fact to carry industry-wide significance. |
 
@@ -103,33 +125,31 @@ Treat the following as patterns to inspect, not forbidden constructions. One tra
 
 Inspect clusters of words such as:
 
-`acts as`, `additionally`, `crucial`, `showcase`, `align`, `at the forefront`, `bolster`, `comprehensive`, `consequently`, `crucial`, `delve`, `dynamic`, `enduring`, `enhance`, `foster`, `garner`, `highlight`, `interplay`, `intricate`, `it is important to note`, `key`, `landscape`, `meticulous`, `notably`, `pivotal`, `presents a`, `profound`, `robust`, `seamless`, `serves as`, `showcase`, `stands out`, `tapestry`, `testament`, `underscore`, `valuable`, and `vibrant`.
+`acts as`, `additionally`, `crucial`, `showcase`, `align`, `at the forefront`, `bolster`, `comprehensive`, `consequently`, `delve`, `dynamic`, `enduring`, `enhance`, `foster`, `garner`, `highlight`, `interplay`, `intricate`, `it is important to note`, `key`, `landscape`, `meticulous`, `notably`, `pivotal`, `presents a`, `profound`, `robust`, `seamless`, `serves as`, `stands out`, `tapestry`, `testament`, `underscore`, `valuable`, and `vibrant`.
 
 Keep a word when it is accurate and natural. Revise when several appear close together, recur throughout the draft, or replace concrete information.
 
 Do not fix a flagged word by substituting an equally inflated synonym.
 
-## Make significance earn its place
+## Make examples and significance earn their place
 
 Do not tell the reader that something is important without showing why.
 
-Before:
+Choose examples that explain a mechanism, distinction, or decision. Label hypothetical scenarios and illustrative numbers. Do not invent facts to replace an abstract sentence with something concrete.
 
-> The archive stands as a testament to the town's enduring commitment to its rich cultural heritage.
-
-After:
-
-> The town opened the archive in 2019. It holds council records dating to 1842 and makes them available to the public twice a week.
+For this hypothetical revision, assume the supplied facts are: all 12 workers were busy when a queue began growing, the queue cleared after capacity increased to 24, and the investigation has not established the cause.
 
 Before:
 
-> The library extended its hours, enhancing access and fostering community engagement.
+> Doubling the worker pool demonstrated the power of resilient architecture and permanently resolved the bottleneck.
 
 After:
 
-> The library now stays open until 9 p.m. on weekdays. During the first month, an average of 140 people used the added evening hours.
+> The queue began growing while all 12 workers were busy. It cleared after the pool increased to 24. This is consistent with a capacity constraint, but the cause has not yet been established.
 
-Prefer the second form because it gives the reader evidence rather than an interpretation to accept.
+The revision uses the supplied evidence and preserves its limits. Do not add latency measurements, customer impact, or claims of permanent resolution.
+
+Use analogies selectively. Follow an analogy with the literal mechanism; identify where it stops working when that matters. Do not let an attractive comparison stand in for technical explanation.
 
 ## Attribute precisely
 
@@ -151,6 +171,8 @@ Avoid speculative filler such as:
 - “This may reflect broader trends.”
 
 State the verified facts and identify a genuine gap plainly when it matters.
+
+Distinguish an observation from a proposed mechanism, contributing factor, or demonstrated cause. A change followed by improvement does not by itself establish causation. Preserve the conditions under which a result was obtained, including relevant workload, dataset, implementation, or evaluation limits. Do not turn one successful test into a universal recommendation.
 
 ## Protect factual integrity
 
@@ -176,6 +198,8 @@ When sources are required:
 
 Do not assume a citation is valid merely because its URL or DOI resolves.
 
+Keep references attached to the claims they support. Do not use a search-results link as a substitute for an identifiable source when citing a specific claim. If verification is unavailable, state the material limitation or omit the unsupported claim; never imply that verification occurred.
+
 Preserve uncertainty where the evidence is uncertain. Never add confidence to make prose sound authoritative.
 
 ## Keep formatting proportional
@@ -184,11 +208,13 @@ Use sentence case for headings unless the requested style says otherwise.
 
 Do not skip heading levels. Do not add headings to short answers that read better as a few paragraphs.
 
+Remove redundant heading layers and avoid duplicating a title already supplied by the destination. A parent heading may organize useful subsections without an introductory paragraph; do not add filler merely to put text beneath every heading. Preserve a required template.
+
 Use bold sparingly. Avoid repeated `**Label:** explanation` bullets unless the labels genuinely improve scanning.
 
 Use lists for parallel items or procedures. Use prose when the ideas need connection. Use tables only when readers need to compare repeated fields.
 
-Never use em dashes. Rewrite with a comma, parentheses, colon, semicolon, or separate sentence. Follow an explicit destination style only when it explicitly requires them for a specific technical reason.
+Never use em dashes in authored prose. This is the user's personal preference, not a claim about AI detection. Rewrite with a comma, parentheses, colon, semicolon, or separate sentence. Do not silently alter a verbatim quotation, code, or other exact required text to satisfy a prose preference; paraphrase outside quotation marks when appropriate, or preserve the required text.
 
 Use parentheses, colons, curly quotes, emoji, and fragments according to meaning and house style. Do not use them as automatic decoration.
 
@@ -210,7 +236,9 @@ Remove phrases such as:
 
 Do not announce that the output is polished, neutral, human-like, well sourced, or compliant. Make the writing demonstrate those qualities.
 
-Remove placeholders, TODOs, drafting instructions, fake dates, and internal citation artifacts such as `turn0search0`, `oaicite`, `contentReference`, `[cite: 1]`, or `INSERT_SOURCE_URL`.
+Remove unfinished placeholders, TODOs, drafting instructions, fake dates, and leaked internal citation or document-wrapper artifacts. Examples include `turn0search0`, `oaicite`, `contentReference`, `[cite: 1]`, `[span_1](start_span)`, `grok_render_citation_card_json`, `[attached_file:1]`, and `:::writing{...}`. These are examples, not an exhaustive model-specific blacklist. Retain intentional placeholders when the requested artifact is a reusable template.
+
+When exporting or copying between formats, convert references into usable destination citations or links instead of merely deleting the evidence trail. Check that equations, code blocks, lists, and tables remain readable. Preserve legitimate syntax inside code and properly rendered native references.
 
 Do not end every response with an invitation to continue. Include a next step only when it helps the reader act.
 
@@ -240,6 +268,8 @@ Check that:
 - Each paragraph contributes something.
 - Claims are specific and proportionate.
 - Interpretations follow from evidence.
+- Observations, causal claims, hypothetical examples, and measured results remain distinct.
+- Material assumptions and limits have survived compression.
 - Uncertainty is honest.
 - Nothing has been invented.
 - The structure follows the subject rather than a generic template.
@@ -251,12 +281,12 @@ Check that:
 
 - The opening begins with useful information.
 - The tone matches the audience and supplied samples.
-- No sentence could be pasted unchanged into many unrelated topics.
+- Generic claims and interchangeable filler have been removed; useful definitions and standard explanations remain.
 - Elevated vocabulary does not cluster.
 - Simple verbs have not been replaced unnecessarily.
 - Contrasts, triads, transitions, and conclusions are not mechanical.
-- Em dashes have been completely removed and replaced.
-- Sentence and paragraph rhythm is not unnaturally uniform.
+- Authored prose contains no em dashes; exact required source text and code remain intact.
+- Rhythm supports meaning without forced irregularity.
 - Formatting is no more elaborate than needed.
 - No chatbot commentary, placeholder, or internal markup remains.
 - The ending stops naturally.
@@ -264,3 +294,7 @@ Check that:
 Fix only real problems. Do not keep rewriting simply to introduce variation.
 
 Return the requested writing without a detector score, self-evaluation, compliance claim, or unnecessary preamble.
+
+## Basis and scope
+
+This skill draws on [Wikipedia's Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), reviewed 16 September 2026, and editorial adaptations of [StoryScope, version 6](https://arxiv.org/abs/2604.03136v6). Wikipedia's guide is descriptive and context-dependent; StoryScope studies fiction. Neither establishes that these instructions improve nonfiction or identify authorship. Use the guidance to solve actual writing problems, not to enforce a supposed universal human style. Retain clear terminology and useful summaries for their reader benefit, regardless of whether a source classifies them as current or historical AI indicators. The skill is self-contained and does not require those sources or Human Scope to be loaded for ordinary writing.
